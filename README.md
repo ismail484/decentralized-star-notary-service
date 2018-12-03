@@ -3,10 +3,9 @@
 
 # Description
   
-  ### First open [[Private Blockchain Notary Service App](http://localhost:8000/book/:id) to discover, how app works .
-  - Simply , It acts as a restfull Blockchain API using Nodejs (Express)   .
-  - build a Star Registry Service that allows users to claim ownership of their favorite star in the night sky.
-  - This web App introduces the fundamentals of web APIs with Node.js frameworks. Using my own private blockchain to create a web API is a huge first step toward developing my own web applications that are consumable by a variety of web clients.
+  ### First open [Ethereum Decentralized Star Notary Service](http://localhost:8000/book/:id) to discover, how app works .
+  - Simply , it's  a DApp by adding functionality to my smart contract and deploy it on the local and Rinkeby testnet  .
+  - I implemented  my own ERC721 non-fungible token contract!
   
 
   #### How  components do interact with each other:
@@ -41,31 +40,24 @@ smart_contracts.js
    - `npm install openzeppelin-solidity`
    - `truffle develop` --> `compile` then `migrate`
 
-
-   
-
-# How to Run Project 
-   1.  Download all Project files
-   2.  Run `npm install` to install all required dependancies &packages .
-   3.  Run `nodemon app.js`
-   4.  open browser [Private Blockchain Notary Service App](http://localhost:8000/book/5)
  
- # Contract address
+ 
+# Contract address
     
    ## 0x345ca3e014aaf5dca488057592ee47305d9b3e10
 
 
- # Contract Hash 
+# Contract Hash 
  
    ## 0x22a07b0faf6d5054a08f12ec112e19f2a8d068b0c8f63ede13d37746a9e74d38
   
 
 
- # Transaction hash
+# Transaction hash
    
    ## 
    
- # star tokenId
+# star tokenId
    
    ## 1
 
