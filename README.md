@@ -12,41 +12,36 @@
   #### How  components do interact with each other:
 
 ```
-app.js
+smart_contracts.js
 │     
 │
-└───models 
+└───contracts 
 │   │  
-│   └─── block.js
+│   └─── Migration.sol
 │   │        
-│   └───  simpleChain.js
+│   └───  StarNotary.js
 │     
-└───  controllers.js   
+└───  migrations.js   
 |        │
-|        └───  blockChainValidationController.js
+|        └───  1_initial_migration.js
+|        |   
+|        └───  2_deploy_contracts.js 
+|       
 |
-|
-|
-└───utils   
+└───test   
      | 
-     └───  startValidation.js
+     └───  StartNotayTest.js
         
     
  ``` 
 
 # Required Libraries and Dependencies
-   - Ava globally  : run ` npm install --global ava`
-   - Ava as a development dependency : run ` ava --init`
-   - Ava assertion : run `npm install --save ava-assert`
-   - Body-parser : run `npm install --save body-parser`
-   - Crypto-js : run `npm install --save crypto-js`
-   - express : run `npm install --save express`
-   - level db : run `npm install level --save`
-   - nodemon global : run `npm install -g nodemon`
-   - nodemon as a development dependency : run `npm install --save-dev nodemon`
-   - Super test   : run `npm install supertest --save-dev` 
+   - `npm install truffle -g`
+   - `npm install --save truffle-hdwallet-provider` 
+   - `npm install openzeppelin-solidity`
+   - `truffle develop` --> `compile` then `migrate`
 
-   
+
    
 
 # How to Run Project 
@@ -55,28 +50,30 @@ app.js
    3.  Run `nodemon app.js`
    4.  open browser [Private Blockchain Notary Service App](http://localhost:8000/book/5)
  
- # APIs
-   1.  http://localhost:8000/requestValidation.
-   2.  http://localhost:8000/message-signature/validate
-   3.  http://localhost:8000/block
-   4.  http://localhost:8000/stars/hash:[HASH]
-   5.  http://localhost:8000/stars/address:[ADDRESS]
-   6.  http://localhost:8000/block/[HEIGHT]
+ # Contract address
+    
+   ## 0x345ca3e014aaf5dca488057592ee47305d9b3e10
+
+
+ # Contract Hash 
+ 
+   ## 0x22a07b0faf6d5054a08f12ec112e19f2a8d068b0c8f63ede13d37746a9e74d38
   
- 
+
+
+ # Transaction hash
+   
+   ## 
+   
+ # star tokenId
+   
+   ## 1
+
+
 # Test
-  - run `ava test.js` .
-  - I checked I get &post block data correctly
+
+  - run `truffle test` 
 
 
 
-# Resources
- 
-   1. [Expressjs](https://www.npmjs.com/package/express)
-   2. [Ava-Assertion](https://github.com/avajs/ava-assert)
-   3. [AVA Testing](https://github.com/avajs/ava)
-   4. [Superr Test](https://www.npmjs.com/package/supertest)
-   5. [Nodemon server](https://github.com/remy/nodemon)
-   6. [Body Parser](https://www.npmjs.com/package/body-parser)
-   7. [Level DB](https://www.npmjs.com/package/level)
-   8. [Bitcoin Messages ](https://github.com/bitcoinjs/bitcoinjs-message)
+
