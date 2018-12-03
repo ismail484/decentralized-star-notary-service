@@ -11,7 +11,7 @@
   #### How  components do interact with each other:
 
 ```
-smart_contracts.js
+smart_contracts
 │     
 │
 └───contracts 
