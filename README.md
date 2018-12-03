@@ -44,12 +44,12 @@ smart_contracts
  
 # Contract address
     
-   ## 0x345ca3e014aaf5dca488057592ee47305d9b3e10
+     ## 0x345ca3e014aaf5dca488057592ee47305d9b3e10
 
 
 # Contract Hash 
  
-   ## 0x22a07b0faf6d5054a08f12ec112e19f2a8d068b0c8f63ede13d37746a9e74d38
+     ## 0x22a07b0faf6d5054a08f12ec112e19f2a8d068b0c8f63ede13d37746a9e74d38
   
 
 
@@ -59,7 +59,7 @@ smart_contracts
    
 # star tokenId
    
-   ## 1
+     ## 1
 
 
 # Test
