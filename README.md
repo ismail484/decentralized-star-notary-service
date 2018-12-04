@@ -1,5 +1,3 @@
-# decentralized-star-notary-service
- 
 # Project: ethereum-decentralized-star-notary-service - [Mohamed Ismail]
 
 # Description
