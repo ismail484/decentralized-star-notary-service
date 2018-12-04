@@ -12,7 +12,7 @@
  *   },
  */
 
-const mnemonic = "illegal fuel snake anger woman weapon sibling glow embrace tired prosper cousin"
+const mnemonic = "goat return visit vacant surround result fiction mobile love dinosaur dry seek"
 const infura = "https://rinkeby.infura.io/v3/8366432e46054a6c89a5cdee8f6df725"
 
 
@@ -21,7 +21,7 @@ module.exports = {
 networks: {
   development: {
    host: "127.0.0.1",
-   port: 9545,
+   port: 8545,
    network_id: "*" // Match any network id
  },
  rinkeby: {
