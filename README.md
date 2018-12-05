@@ -5,7 +5,7 @@
   ### First open [Ethereum Decentralized-Star-Notary-Service](http://localhost:8080/) to discover, how app works .
   - Simply , It acts as a DApp by adding functionality to my smart contract and deploy it on the local public rinkeby testnets   .
   - I employed my blockchain identity to secure digital assets on the Ethereum platform using a smart contract.
-  - I migrated m< private blockchain functionality to a smart contract and created my own ERC721 non-fungible token contract!  
+  - I migrated my private blockchain functionality to a smart contract and created my own ERC721 non-fungible token contract!  
 
   #### How  components do interact with each other:
 
