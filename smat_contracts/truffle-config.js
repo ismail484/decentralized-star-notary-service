@@ -12,7 +12,7 @@
  *   },
  */
 
-const mnemonic = "goat return visit vacant surround result fiction mobile love dinosaur dry seek"
+const mnemonic = "skate nerve civil genius special dove hold juice goddess grit raccoon marble"
 const infura = "https://rinkeby.infura.io/v3/8366432e46054a6c89a5cdee8f6df725"
 
 
