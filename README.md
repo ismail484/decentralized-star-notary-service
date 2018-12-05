@@ -78,7 +78,7 @@ Saving artifacts...
 
 # Contract creation on `Rinkeby Testnet`
 
-[click Here to see contract creation](https://rinkeby.etherscan.io/tx/0x086f6e90ebb5e85921b15727465b46391ab4499b99b75e0185a7e20da0ecd314)
+[click Here to see contract creation on https://.rinkebyetherscan.io](https://rinkeby.etherscan.io/tx/0x086f6e90ebb5e85921b15727465b46391ab4499b99b75e0185a7e20da0ecd314)
 
 # important notes after creation:
    
@@ -88,7 +88,7 @@ Saving artifacts...
   
 # first transaction after creation from my frontend (index.html)
   
-  [click Here to see first TX  after creation](https://rinkeby.etherscan.io/tx/0x89d53c7a30b2bcbda7cc0f73f29b55bec132102dc56431194051528f4d92bce3)
+  [click Here to see first TX  after creation on https://.rinkebyetherscan.io](https://rinkeby.etherscan.io/tx/0x89d53c7a30b2bcbda7cc0f73f29b55bec132102dc56431194051528f4d92bce3)
        
  # important notes after transaction :
     
