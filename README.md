@@ -1,6 +1,6 @@
 # Project: ethereum-decentralized-star-notary-service - [Mohamed Ismail]
 
-[![Build Status](https://travis-ci.org/ismail484/decentralized-star-notary-service.png?branch=master)](https://travis-ci.org/ismail484/decentralized-star-notary-service)
+[![passing](https://travis-ci.org/ismail484/decentralized-star-notary-service.png?branch=master)](https://travis-ci.org/ismail484/decentralized-star-notary-service)
 
 
 
