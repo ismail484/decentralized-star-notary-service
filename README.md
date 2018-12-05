@@ -1,5 +1,10 @@
 # Project: ethereum-decentralized-star-notary-service - [Mohamed Ismail]
 
+[![Build Status](https://travis-ci.org/ismail484/decentralized-star-notary-service.png?branch=master)](https://travis-ci.org/ismail484/decentralized-star-notary-service)
+
+
+
+
 # Description
   
   ### First open [Ethereum Decentralized-Star-Notary-Service](http://localhost:8080/) to discover, how app works .
