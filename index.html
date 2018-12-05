@@ -38,7 +38,7 @@
 
             // The interface definition for your smart contract (the ABI) 
             var StarNotary = web3.eth.contract(
-				[
+              [
     {
       "constant": true,
       "inputs": [
@@ -539,7 +539,7 @@
   ]
             )
 
-            const starNotary = StarNotary.at('0x2c2b9c9a4a25e24b174f26114e8926a9f2128fe4')
+            const starNotary = StarNotary.at('0xb454e96767d4f0810814aa847bf31a0ee61172cf')
             
             function claimButtonClicked() { 
                 web3.eth.getAccounts(function(error, accounts) { 
