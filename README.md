@@ -90,7 +90,11 @@ Saving artifacts...
    2-this contract created by first address in `ganache` , after getting `fund`, which is `0xe04713cbca115375423074f8382ab56eae84c833` .     
    3-`Gas Used By Transaction` <= `gas limit`
    
-   4- ´Actual Tx Cost/Fee` = `Gas Used By Transaction` * `Gas Price`
+   4- `Actual Tx Cost/Fee` = `Gas Used By Transaction` * `Gas Price`
+   
+   5- `percentage of in Gas Used By Transaction` = `Gas Consumed / Gas Limit)*100 ` =67.39%  
+
+
 
 
   
@@ -106,5 +110,8 @@ Saving artifacts...
     
     3-`Gas Used By Transaction` <= `gas limit`
    
-    4- ´Actual Tx Cost/Fee` = `Gas Used By Transaction` * `Gas Price`
+    4- `Actual Tx Cost/Fee` = `Gas Used By Transaction` * `Gas Price`
+    
+    5- `percentage of in Gas Used By Transaction` = `Gas Consumed / Gas Limit)*100 ` =5.05%
+
 
